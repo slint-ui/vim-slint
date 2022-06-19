@@ -48,6 +48,20 @@ require'lspconfig'.slint_lsp.setup{}
 EOF
 ```
 
+### coc.nvim
+
+1.  install `neoclide/coc.nvim` using your fav package manager
+2.  add to your `coc-settings.json` (either with `CocConfig` or open from its path)
+
+```json
+"languageserver": {
+    "slint": {
+        "filetypes": ["slint"],
+        "command": "slint-lsp"
+    }
+}
+```
+
 ###### TODO: Add instruction to install lsp w/o compiling
 
 # Formatting code (WIP: not yet functional)
