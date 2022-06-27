@@ -10,13 +10,13 @@ highlight for Vim.
 ### `vim-plug`
 
 ``` vim
-Plug 'hunger/vim-slint'
+Plug 'slint-ui/vim-slint'
 ```
 
 ### `packer.nvim`
 
 ``` lua
-use 'hunger/vim-slint'
+use 'slint-ui/vim-slint'
 ```
 
 # LSP
